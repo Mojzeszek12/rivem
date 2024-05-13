@@ -2,6 +2,8 @@
 title: Wprowadzenie
 layout: home
 ---
+Wprowadzenie do programowamia. Jeżeli nie chcesz korzystać z mm-boilerplate, tutaj masz FAQ
+----
 
 1. W każdym naszym skrypcie zamieścić musimy podstawowy fxmanifest.lua
 ```lua
@@ -30,7 +32,7 @@ To jest podstawa jeśli chodzi o kodowanie skryptu. Dodatkowo zamieszczamy też 
 Jeżeli z któregoś nie korzystacie, nie musicie go używać
 
 
-2. Drugi krok soon
+2. Podstawowa deklaracja
 ```lua
     lib.onCache('ped', function(ped)
         playerPed = ped;
@@ -39,5 +41,3 @@ Jeżeli z któregoś nie korzystacie, nie musicie go używać
 ```
 
 W każdym skrypcie na jego początku zapisujecie proste oświadczenie. Dzięki temu optymalizacja wzrasta. Nie musicie używać `PlayerPedId()`, tylko używacie `playerPed`
-----
-
