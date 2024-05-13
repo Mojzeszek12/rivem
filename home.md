@@ -9,7 +9,7 @@ Wprowadzenie do programowamia. Jeżeli nie chcesz korzystać z mm-boilerplate, t
 
 
 
-1. W każdym naszym skrypcie zamieścić musimy podstawowy fxmanifest.lua
+## 1. W każdym naszym skrypcie zamieścić musimy podstawowy fxmanifest.lua
 {: .d-inline-block }
 
 Nowe (v0.1.0)
@@ -52,7 +52,11 @@ To jest podstawa jeśli chodzi o kodowanie skryptu. Dodatkowo zamieszczamy też 
 Jeżeli z któregoś nie korzystacie, nie musicie go używać. Małe pliki oraz zasoby wrzucamy do mm-core. Tam jest ich miejsce.
 
 
-2. Podstawowa deklaracja
+## 2. Podstawowa deklaracja
+{: .d-inline-block }
+
+Nowe (v0.1.0)
+{: .label .label-green }
 ```lua
     lib.onCache('ped', function(ped)
         playerPed = ped;
