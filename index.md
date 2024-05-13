@@ -5,6 +5,10 @@ layout: home
 Wprowadzenie do programowamia. Jeżeli nie chcesz korzystać z mm-boilerplate, tutaj masz FAQ
 ----
 
+
+
+
+
 1. W każdym naszym skrypcie zamieścić musimy podstawowy fxmanifest.lua
 ```lua
     fxversion 'bodacious'
@@ -23,13 +27,13 @@ Wprowadzenie do programowamia. Jeżeli nie chcesz korzystać z mm-boilerplate, t
     }
 ```
 To jest podstawa jeśli chodzi o kodowanie skryptu. Dodatkowo zamieszczamy też swoje pliki w folderach:
-- client
-- server
-- shared
-- html
-- json
+- client (pliki po stronie klienta)
+- server (pliki po stronie serwera)
+- shared (wszystkie pliki konfiguracyjne)
+- html (pliki związane z ui)
+- json (tylko i wyłącznie pliki .json)
 
-Jeżeli z któregoś nie korzystacie, nie musicie go używać
+Jeżeli z któregoś nie korzystacie, nie musicie go używać. Małe pliki oraz zasoby wrzucamy do mm-core. Tam jest ich miejsce.
 
 
 2. Podstawowa deklaracja
