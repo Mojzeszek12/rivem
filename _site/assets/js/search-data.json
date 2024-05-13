@@ -1,30 +1,86 @@
 {"0": {
+    "doc": "client",
+    "title": "client",
+    "content": "Strona klienta MM-Core . ",
+    "url": "/docs/mm-core/client.html",
+    
+    "relUrl": "/docs/mm-core/client.html"
+  },"1": {
     "doc": "Wprowadzenie",
     "title": "Wprowadzenie do programowamia",
     "content": "Jeżeli nie chcesz korzystać z mm-boilerplate, tutaj masz FAQ . ",
     "url": "/#wprowadzenie-do-programowamia",
     
     "relUrl": "/#wprowadzenie-do-programowamia"
-  },"1": {
+  },"2": {
     "doc": "Wprowadzenie",
     "title": "1. W każdym naszym skrypcie zamieścić musimy podstawowy fxmanifest.lua",
     "content": "fx_version 'cerulean' lua54 'yes' game 'gta5' shared_scripts { '@ox_lib/init.lua', 'data/*.lua', '@mm-core/init.lua' } dependecies { 'ox_lib', 'ox_core' } client_scripts { 'client/*', '@ox_core/imports/client.lua', } server_scripts { '@oxmysql/lib/MySQL.lua', 'server/*', '@ox_core/imports/server.lua', } . W razie potrzeb pamiętajcie o dodaniu tu reszty plików . To jest podstawa jeśli chodzi o kodowanie skryptu. Dodatkowo zamieszczamy też swoje pliki w folderach: . | client (pliki po stronie klienta) | server (pliki po stronie serwera) | shared (wszystkie pliki konfiguracyjne) | html (pliki związane z ui) | json (tylko i wyłącznie pliki .json) | . Jeżeli z któregoś nie korzystacie, nie musicie go używać. Małe pliki oraz zasoby wrzucamy do mm-core. Tam jest ich miejsce. ",
     "url": "/#1-w-ka%C5%BCdym-naszym-skrypcie-zamie%C5%9Bci%C4%87-musimy-podstawowy-fxmanifestlua",
     
     "relUrl": "/#1-w-każdym-naszym-skrypcie-zamieścić-musimy-podstawowy-fxmanifestlua"
-  },"2": {
+  },"3": {
     "doc": "Wprowadzenie",
     "title": "2. Podstawowa deklaracja",
     "content": "Nowe (v0.1.0) . lib.onCache('ped', function(ped) playerPed = ped; end) playerPed = cache.ped . W każdym skrypcie na jego początku zapisujecie proste oświadczenie. Dzięki temu optymalizacja wzrasta. Nie używacie PlayerPedId(), tylko playerPed, a za brak stosowania się do tego będę was karać. ",
     "url": "/#2-podstawowa-deklaracja",
     
     "relUrl": "/#2-podstawowa-deklaracja"
-  },"3": {
+  },"4": {
     "doc": "Wprowadzenie",
     "title": "Wprowadzenie",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
+  },"5": {
+    "doc": "MM-Core",
+    "title": "MM-Core",
+    "content": "MM-CORE . Aby rozpocząć przygodę z mm-core, potrzebujesz umieścić najpierw go w fxmanifest.lua . shared_script '@mm-core/init.lua' . Wtedy po stronie klienta oraz serwera ukażą ci się różne funkcje . ",
+    "url": "/docs/mm-core/mm-core.html",
+    
+    "relUrl": "/docs/mm-core/mm-core.html"
+  },"6": {
+    "doc": "MM.ReloadSkin()",
+    "title": "MM.ReloadSkin()",
+    "content": "Nie wymaga argumentów, wystarczy tej funkcji użyć, a postara się przywrócić skina, którego gracz miał wcześniej . MM.ReloadSkin() . ",
+    "url": "/docs/mm-core/reloadskin.html#mmreloadskin",
+    
+    "relUrl": "/docs/mm-core/reloadskin.html#mmreloadskin"
+  },"7": {
+    "doc": "MM.ReloadSkin()",
+    "title": "MM.ReloadSkin()",
+    "content": "Strona klienta MM-Core . ",
+    "url": "/docs/mm-core/reloadskin.html",
+    
+    "relUrl": "/docs/mm-core/reloadskin.html"
+  },"8": {
+    "doc": "server",
+    "title": "Wprowadzenie do programowamia",
+    "content": "Jeżeli nie chcesz korzystać z mm-boilerplate, tutaj masz FAQ . ",
+    "url": "/docs/mm-core/server.html#wprowadzenie-do-programowamia",
+    
+    "relUrl": "/docs/mm-core/server.html#wprowadzenie-do-programowamia"
+  },"9": {
+    "doc": "server",
+    "title": "1. W każdym naszym skrypcie zamieścić musimy podstawowy fxmanifest.lua",
+    "content": "fx_version 'cerulean' lua54 'yes' game 'gta5' shared_scripts { '@ox_lib/init.lua', 'data/*.lua', '@mm-core/init.lua' } dependecies { 'ox_lib', 'ox_core' } client_scripts { 'client/*', '@ox_core/imports/client.lua', } server_scripts { '@oxmysql/lib/MySQL.lua', 'server/*', '@ox_core/imports/server.lua', } . W razie potrzeb pamiętajcie o dodaniu tu reszty plików . To jest podstawa jeśli chodzi o kodowanie skryptu. Dodatkowo zamieszczamy też swoje pliki w folderach: . | client (pliki po stronie klienta) | server (pliki po stronie serwera) | shared (wszystkie pliki konfiguracyjne) | html (pliki związane z ui) | json (tylko i wyłącznie pliki .json) | . Jeżeli z któregoś nie korzystacie, nie musicie go używać. Małe pliki oraz zasoby wrzucamy do mm-core. Tam jest ich miejsce. ",
+    "url": "/docs/mm-core/server.html#1-w-ka%C5%BCdym-naszym-skrypcie-zamie%C5%9Bci%C4%87-musimy-podstawowy-fxmanifestlua",
+    
+    "relUrl": "/docs/mm-core/server.html#1-w-każdym-naszym-skrypcie-zamieścić-musimy-podstawowy-fxmanifestlua"
+  },"10": {
+    "doc": "server",
+    "title": "2. Podstawowa deklaracja",
+    "content": "Nowe (v0.1.0) . lib.onCache('ped', function(ped) playerPed = ped; end) playerPed = cache.ped . W każdym skrypcie na jego początku zapisujecie proste oświadczenie. Dzięki temu optymalizacja wzrasta. Nie używacie PlayerPedId(), tylko playerPed, a za brak stosowania się do tego będę was karać. ",
+    "url": "/docs/mm-core/server.html#2-podstawowa-deklaracja",
+    
+    "relUrl": "/docs/mm-core/server.html#2-podstawowa-deklaracja"
+  },"11": {
+    "doc": "server",
+    "title": "server",
+    "content": " ",
+    "url": "/docs/mm-core/server.html",
+    
+    "relUrl": "/docs/mm-core/server.html"
   }
 }
