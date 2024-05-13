@@ -1,8 +1,8 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+title: RiveM Docs
+description: Strona na której znajdziesz całą naszą dokumentację
+theme: rivem
 
-url: https://just-the-docs.github.io
+url: https://mojzeszek12.github.io/rivem/
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Template Repository: https://github.com/Mojzeszek12/rivem
