@@ -1,7 +1,8 @@
 ---
 title: Wprowadzenie
-layout: wprowadzenie
+layout: home
 ---
+
 [^1] W każdym naszym skrypcie zamieścić musimy podstawowy fxmanifest.lua
 ```lua
     fxversion 'bodacious'
@@ -27,4 +28,7 @@ To jest podstawa jeśli chodzi o kodowanie skryptu. Dodatkowo zamieszczamy też 
 5. json
 
 Jeżeli z któregoś nie korzystacie, nie musicie go używać
+
 ----
+
+[^2]: Drugi krok soon
