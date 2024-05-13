@@ -3,7 +3,7 @@ title: Wprowadzenie
 layout: home
 ---
 
-[^1]: [W każdym naszym skrypcie zamieścić musimy podstawowy fxmanifest.lua]
+1. W każdym naszym skrypcie zamieścić musimy podstawowy fxmanifest.lua
 ```lua
     fxversion 'bodacious'
     lua54 'yes'
@@ -21,15 +21,15 @@ layout: home
     }
 ```
 To jest podstawa jeśli chodzi o kodowanie skryptu. Dodatkowo zamieszczamy też swoje pliki w folderach:
-1. client
-2. server
-3. shared
-4. html
-5. json
+- client
+- server
+- shared
+- html
+- json
 
 Jeżeli z któregoś nie korzystacie, nie musicie go używać
 
 
-[^2]: [Drugi krok soon]
+2. Drugi krok soon
 ----
 
