@@ -20,7 +20,7 @@ game         'gta5'
 
 
 shared_scripts {
-	'@ox_lib/init.lua',
+    '@ox_lib/init.lua',
     'data/*.lua',
     '@mm-core/init.lua'
 }
@@ -36,7 +36,7 @@ client_scripts {
 }
 
 server_scripts {
-	'@oxmysql/lib/MySQL.lua',
+    '@oxmysql/lib/MySQL.lua',
     'server/*',
     '@ox_core/imports/server.lua',
 }
