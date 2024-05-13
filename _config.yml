@@ -6,3 +6,20 @@ url: https://mojzeszek12.github.io/rivem/
 
 footer_content: "Na stronie zmiany pojawiają się często. Pamiętaj, by być na bieżąco."
 color_scheme: dark
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Ważne
+    color: blue
+  new:
+    title: Nowe
+    color: green
+  note:
+    title: Notka
+    color: purple
+  warning:
+    title: Uwaga
+    color: red

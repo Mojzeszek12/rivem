@@ -12,7 +12,7 @@ Wprowadzenie do programowamia. Jeżeli nie chcesz korzystać z mm-boilerplate, t
 1. W każdym naszym skrypcie zamieścić musimy podstawowy fxmanifest.lua
 {: .d-inline-block }
 
-Nowość (v0.1.0)
+Nowe (v0.1.0)
 {: .label .label-green }
 ```lua
 fx_version   'cerulean'
