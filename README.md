@@ -61,10 +61,7 @@ Note: If you are using a Jekyll version less than 3.5.0, use the `gems` key inst
     description: YOUR DESCRIPTION
     theme: just-the-docs
 
-    url: https://YOUR-USERNAME.github.io/YOUR-SITE-NAME
-
-    aux_links: # remove if you don't want this link to appear on your pages
-      Template Repository: https://github.com/YOUR-USERNAME/YOUR-SITE-NAME
+    url: https://mojzeszek12.github.io/rivem/
     ```
 
 2.  Push your updated `_config.yml` to your site on GitHub.
