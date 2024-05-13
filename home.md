@@ -11,20 +11,32 @@ Wprowadzenie do programowamia. Jeżeli nie chcesz korzystać z mm-boilerplate, t
 
 1. W każdym naszym skrypcie zamieścić musimy podstawowy fxmanifest.lua
 ```lua
-    fxversion 'bodacious'
-    lua54 'yes'
-    shared_scripts {
-	    '@ox_lib/init.lua',
-        'data/*.lua',
-        '@mm-core/init.lua'
-    }
-    client_scripts {
-        '@ox_core/imports/client.lua',
-    }
-    server_scripts {
-        '@oxmysql/lib/MySQL.lua',
-        '@ox_core/imports/server.lua'
-    }
+fx_version   'cerulean'
+lua54        'yes'
+game         'gta5'
+
+
+shared_scripts {
+	'@ox_lib/init.lua',
+    'data/*.lua',
+    '@mm-core/init.lua'
+}
+
+dependecies {
+    'ox_lib',
+    'ox_core'
+}
+
+client_scripts {
+    'client/*',
+    '@ox_core/imports/client.lua',
+}
+
+server_scripts {
+	'@oxmysql/lib/MySQL.lua',
+    'server/*',
+    '@ox_core/imports/server.lua',
+}
 ```
 To jest podstawa jeśli chodzi o kodowanie skryptu. Dodatkowo zamieszczamy też swoje pliki w folderach:
 - client (pliki po stronie klienta)
