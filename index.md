@@ -31,5 +31,13 @@ Jeżeli z któregoś nie korzystacie, nie musicie go używać
 
 
 2. Drugi krok soon
+```lua
+    lib.onCache('ped', function(ped)
+        playerPed = ped;
+    end)
+    playerPed = cache.ped
+```
+
+W każdym skrypcie na jego początku zapisujecie proste oświadczenie. Dzięki temu optymalizacja wzrasta. Nie musicie używać `PlayerPedId()`, tylko używacie `playerPed`
 ----
 
