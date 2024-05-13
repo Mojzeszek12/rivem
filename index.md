@@ -3,7 +3,7 @@ title: Wprowadzenie
 layout: home
 ---
 
-[^1] W każdym naszym skrypcie zamieścić musimy podstawowy fxmanifest.lua
+[^1]: W każdym naszym skrypcie zamieścić musimy podstawowy fxmanifest.lua
 ```lua
     fxversion 'bodacious'
     lua54 'yes'
@@ -29,6 +29,7 @@ To jest podstawa jeśli chodzi o kodowanie skryptu. Dodatkowo zamieszczamy też 
 
 Jeżeli z któregoś nie korzystacie, nie musicie go używać
 
-----
 
 [^2]: Drugi krok soon
+----
+
