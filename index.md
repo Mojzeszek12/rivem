@@ -1,6 +1,8 @@
 ---
 title: Wprowadzenie
 layout: home
+nav_order: 1
+permalink: /
 ---
 # Wprowadzenie do programowamia
 #### Jeżeli nie chcesz korzystać z mm-boilerplate, tutaj masz FAQ
