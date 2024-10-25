@@ -61,6 +61,8 @@ Jeżeli z któregoś nie korzystacie, nie musicie go używać. Małe pliki oraz 
 Nowe (v0.1.0)
 {: .label .label-green }
 ```lua
+local config <const> = require 'shared.config';
+
 lib.onCache('ped', function(ped)
     playerPed = ped;
 end)
@@ -68,6 +70,8 @@ playerPed = cache.ped
 ```
 
 W każdym skrypcie na jego początku zapisujecie proste oświadczenie. Dzięki temu optymalizacja wzrasta. 
+
+Ścieżkę do config określacie poprzez ścieżkę folderu czyli jak masz config/main.lua to dajesz config.main
 
 Nie używacie `PlayerPedId()`, tylko `playerPed`, a za brak stosowania się do tego będę was karać.
 {: .warning }
